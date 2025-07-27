@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background: #fff;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .gallery {
+    display: flex;
+    width: 90%;
+    height: 80vh;
+    gap: 10px;
+  }
+  
+  .photo {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    transition: flex 0.5s ease-in-out;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .photo span {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .photo.expanded {
+    flex: 5;
+  } 

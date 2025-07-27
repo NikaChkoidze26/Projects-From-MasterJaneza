@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #10242e;
+    color: white;
+    font-family:
+    + sans-serif;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #00bcd4;
+    padding: 20px;
+    color: #10242e;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  header p {
+    font-size: 16px;
+    opacity: 0.8;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .search-bar input {
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 8px;
+    border: 2px solid #00bcd4;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .search-bar button {
+    background-color: #00bcd4;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-bar button:hover {
+    background-color: #00acc1;
+  }
+  
+  .movie-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .movie-card {
+    background-color: #14575c;
+    border-radius: 16px;
+    width: 250px;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 350px;
+    object-fit: cover;
+  }
+  
+  .movie-card h2 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0 10px;
+  }
+  
+  .rating {
+    font-size: 18px;
+    color: #fdd835;
+  }
+  
+  .heart {
+    background-color: #00bcd4;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+  }
+
+  .movie-card {
+    background-color: #14575c;
+    border-radius: 16px;
+    width: 250px;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .heart:hover {
+    background-color: #0097a7;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }

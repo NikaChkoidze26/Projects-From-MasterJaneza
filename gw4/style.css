@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  
+  .bg {
+    background-image: url("https://www.offsoho.com/images/NYC_000021208828-2100-980.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    filter: blur(30px);
+   
+  }
+  
+  .loading-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 50px;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }

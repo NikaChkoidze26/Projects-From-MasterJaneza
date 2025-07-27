@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #8e44ad;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    gap: 60px;
+  }
+  
+  .card {
+    text-align: center;
+  }
+  
+  .card i {
+    font-size: 60px;
+    margin-bottom: 20px;
+    display: block;
+    filter: drop-shadow(2px 4px 4px black);
+  }
+  
+  .counter {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    filter: drop-shadow(2px 4px 4px black);
+  }

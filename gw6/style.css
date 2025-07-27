@@ -1,0 +1,28 @@
+body {
+    background-color: #9b59b6;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .buttons-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .btn {
+    background-color: #5e3370;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #4c2b5e;
+  }
